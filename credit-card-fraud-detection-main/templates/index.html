@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCFD-home</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="script.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="side-nav">
+            <div class="welcome">
+                <img src="static/images/welcome.png" alt="welcome" class="welcome-img">
+                <div class="content">
+                    <h2>gs1</h2>
+                    <p>ml learner</p>
+                </div>
+            </div>
+            <ul>
+                <li><img src="static/images/about.png" alt="about"><p onclick="window.location.href='/about'">About- Project</p></li>
+                <li><img src="static/images/study-material.png" alt="study-mat"><p onclick="window.location.href='/material'">Study-Material</p></li>
+                <li><img src="static/images/imageGitHub.png" alt="github"><p onclick="window.location.href='https://github.com/BRIJESH6063';" >Git- Repository</p></li>
+                <li><img src="static/images/linkedin.png" alt="linkedin"><p onclick="window.location.href='https://www.linkedin.com/in/brijesh6063/';" >Linkedin-Profile</p></li>
+            </ul>
+            <ul>
+                <li><img src="static/images/copyright.png" alt="copyright"><p>copyright</p></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------------   form page    ------------------------------------------------ -->
+  <div class="container">
+    <header>Credit Card Fraud Detection</header>
+
+    <form action="{{url_for('predict')}}" method="POST">
+        <div class="details personal">
+            <span class="title">Input credit card feature details</span>
+
+            <div class="fields">
+                <div class="input-field">
+                    <label for="">Time</label>
+                    <input type="text" placeholder="time" name="time" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V1</label>
+                    <input type="text" placeholder="V1" name="V1" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V2</label>
+                    <input type="text" placeholder="V2" name="V2" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V3</label>
+                    <input type="text" placeholder="V3" name="V3" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V4</label>
+                    <input type="text" placeholder="V4" name="V4" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V5</label>
+                    <input type="text" placeholder="V5" name="V5" required>
+                </div>
+            </div>
+
+            <div class="fields">
+                <div class="input-field">
+                    <label for="">V6</label>
+                    <input type="text" placeholder="V6" name="V6" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V7</label>
+                    <input type="text" placeholder="V7" name="V7" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V8</label>
+                    <input type="text" placeholder="V8" name="V8" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V9</label>
+                    <input type="text" placeholder="V9" name="V9" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V10</label>
+                    <input type="text" placeholder="V10" name="V10" required>
+                </div>
+                <div class="input-field">
+                    <label for="">V11</label>
+                    <input type="text" placeholder="V11" name="V11" required>
+                </div>
+            </div>
+
+            <div class="fields">
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="">V12</label>
+                        <input type="text" placeholder="V12" name="V12" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V13</label>
+                        <input type="text" placeholder="V13" name="V13" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V14</label>
+                        <input type="text" placeholder="V14" name="V14" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V15</label>
+                        <input type="text" placeholder="V15" name="V15" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V16</label>
+                        <input type="text" placeholder="V16" name="V16" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V17</label>
+                        <input type="text" placeholder="V17" name="V17" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fields">
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="">V18</label>
+                        <input type="text" placeholder="V18" name="V18" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V19</label>
+                        <input type="text" placeholder="V19" name="V19" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V20</label>
+                        <input type="text" placeholder="V20" name="V20" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V21</label>
+                        <input type="text" placeholder="V21" name="V21" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V22</label>
+                        <input type="text" placeholder="V22" name="V22" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V23</label>
+                        <input type="text" placeholder="V23" name="V23" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fields">
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="">V24</label>
+                        <input type="text" placeholder="V24" name="V24" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V25</label>
+                        <input type="text" placeholder="V25" name="V25" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V26</label>
+                        <input type="text" placeholder="V26" name="V26" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V27</label>
+                        <input type="text" placeholder="V27" name="V27" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">V28</label>
+                        <input type="text" placeholder="V28" name="V28" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="">Amount</label>
+                        <input type="text" placeholder="amount" name="amount" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <button class="nextBtn" type="submit" value="Submit">
+            <span class="btnText">Predict</span>
+            <i class="uil uil-navigator"></i>
+        </button>
+        
+    </form>
+  </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
